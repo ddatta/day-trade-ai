@@ -1,4 +1,0 @@
-strategy,pairs_total,pairs_with_data,trades,wins,losses,win_rate_pct,initial_capital,final_capital,net_pnl_dollars,max_drawdown_dollars,profit_factor,assumptions,params
-Base,126,126,54,26,28,48.1481,3000.0,6312.325257,3312.325257,921.927217,1.973481,"unadjusted prices, fixed absolute dates, exit on first red close after surge arm, minEntryPrice=1.0","stop=0.04,arm=0.05,vol=1.5,maxrun=50.0,red_lb=4,min_red=2,lowvol=1,minPrice=1.0"
-Best WinRate,126,126,50,31,19,62.0,3000.0,8234.812705,5234.812705,775.562422,2.399092,"unadjusted prices, fixed absolute dates, exit on first red close after surge arm, minEntryPrice=1.0","stop=0.06,arm=0.03,vol=1.7,maxrun=35.0,red_lb=4,min_red=1,lowvol=1,minPrice=1.0"
-Best NetPnL,126,126,72,44,28,61.1111,3000.0,18366.520833,15366.520833,1615.593462,2.340536,"unadjusted prices, fixed absolute dates, exit on first red close after surge arm, minEntryPrice=1.0","stop=0.06,arm=0.07,vol=1.7,maxrun=80.0,red_lb=4,min_red=1,lowvol=1,minPrice=1.0"

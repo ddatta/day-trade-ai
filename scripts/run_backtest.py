@@ -6,18 +6,18 @@ from dataclasses import dataclass
 from datetime import datetime, time as dtime
 from pathlib import Path
 
-ROOT = Path('/Users/ddatta/codex/day-trade-ai')
+ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / 'results'
 RESULTS.mkdir(parents=True, exist_ok=True)
 
 # Fixed absolute-date pair universe + unadjusted cache
-PAIRS_CSV = Path('/Users/ddatta/codex/live_trades_updated_pairs.csv')
-CACHE_CSV = Path('/Users/ddatta/codex/massive_price_cache_unadjusted.csv')
+PAIRS_CSV = ROOT / 'data' / 'drk_live_trades_updated_pairs.csv'
+CACHE_CSV = ROOT / 'data' / 'massive_price_cache_unadjusted.csv'
 
-OUT_SUMMARY = RESULTS / 'drako_3strategy_fixedpairs_redclose_summary.csv'
-OUT_BASE = RESULTS / 'drako_base_fixedpairs_redclose_trade_log.csv'
-OUT_WR = RESULTS / 'drako_best_winrate_fixedpairs_redclose_trade_log.csv'
-OUT_NP = RESULTS / 'drako_best_netpnl_fixedpairs_redclose_trade_log.csv'
+OUT_SUMMARY = RESULTS / 'drk_3strategy_fixedpairs_redclose_summary.csv'
+OUT_BASE = RESULTS / 'drk_base_fixedpairs_redclose_trade_log.csv'
+OUT_WR = RESULTS / 'drk_best_winrate_fixedpairs_redclose_trade_log.csv'
+OUT_NP = RESULTS / 'drk_best_netpnl_fixedpairs_redclose_trade_log.csv'
 
 RTH_START = dtime(9, 30)
 RTH_END = dtime(16, 0)
