@@ -1,2 +1,2 @@
-source_file,output_file,input_trades,removed_overlap,removed_after_1015,output_trades
-validation/minprice_trade_logs/best_netpnl__minprice_0p00__trades.csv,validation/minprice_trade_logs/best_netpnl__minprice_0p00__trades_nooverlap_upto1015.csv,92,1,9,82
+source_file,output_file,commission_model,input_trades,removed_overlap,removed_after_1015,output_trades,initial_capital,final_capital,net_pnl_dollars
+validation/minprice_trade_logs/best_netpnl__minprice_0p00__trades.csv,validation/minprice_trade_logs/best_netpnl__minprice_0p00__trades_nooverlap_upto1015.csv,"IBKR fixed approx: 0.005/share, $1 min/order, 1% notional max/order",92,1,9,82,3000.0,23601.919124,20601.919124
