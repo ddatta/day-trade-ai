@@ -1,0 +1,2 @@
+source_file,output_file,input_trades,removed_overlap,removed_after_1015,output_trades
+validation/minprice_trade_logs/best_netpnl__minprice_0p00__trades.csv,validation/minprice_trade_logs/best_netpnl__minprice_0p00__trades_nooverlap_upto1015.csv,92,1,9,82
